@@ -1,0 +1,111 @@
+{
+  "nome": "Fabiano Gonçalves Neves Bonfado Pereira",
+  "titulo": "Estagiário de Desenvolvimento e Suporte de TI",
+  "email": "fabianodev@yahoo.com",
+  "telefone_e164": "+5521983304162",
+  "telefone_exibicao": "(21) 98330-4162",
+  "localizacao": "Rio de Janeiro, RJ, Brasil",
+  "linkedin_url": "",
+  "github_url": "https://github.com/FBGdev/",
+  "site_url": "https://portfolio-fabiano.vercel.app",
+  "resumo": "Estudante de ADS e técnico em Informática com ~1,5 ano de prática em desenvolvimento web com Python/Django, integração com APIs e manipulação de bancos de dados, além de suporte técnico e infraestrutura básica. Atuo do backend ao front simples, com rotinas de diagnóstico, configuração de sistemas e redes. Busco estágio para aplicar e evoluir em desenvolvimento (backend/frontend) ou suporte/sistemas, entregando código limpo, documentação e atendimento ágil.",
+  "competencias_tecnicas": [
+    {
+      "grupo": "Programação e Desenvolvimento",
+      "itens": ["Python", "Django", "Integração com APIs", "HTML/CSS/JavaScript", "Tailwind CSS", "Git/GitHub"]
+    },
+    {
+      "grupo": "Banco de Dados",
+      "itens": ["PostgreSQL", "Modelagem básica", "Consultas SQL", "Supabase (Storage)"]
+    },
+    {
+      "grupo": "Sistemas Operacionais",
+      "itens": ["Linux (Ubuntu)", "Windows 10/11", "Windows Server (noções)"]
+    },
+    {
+      "grupo": "Suporte Técnico e Infraestrutura",
+      "itens": [
+        "Montagem e manutenção de PCs",
+        "Instalação e configuração de SO",
+        "Redes básicas (TCP/IP, Wi-Fi, IP)",
+        "Active Directory (noções)",
+        "Suporte remoto (AnyDesk/TeamViewer)",
+        "Automação básica (Bash/PowerShell)"
+      ]
+    }
+  ],
+  "competencias_comportamentais": [],
+  "diferenciais": [],
+  "projetos": [
+    {
+      "titulo": "Currículo ATS em HTML (Python)",
+      "tecnologias": "Python, Playwright, HTML, CSS",
+      "pontos": [
+        "Gerador de currículo em HTML/PDF com dados em JSON, focado em compatibilidade ATS",
+        "Template responsivo com estilos personalizáveis e exportação automatizada via Playwright",
+        "Link único para contatos e portfólio, facilitando triagem"
+      ],
+      "links": [
+        {
+          "rotulo": "Repositório",
+          "url": "https://github.com/FBGdev/ats-resume-generator-html"
+        }
+      ]
+    },
+    {
+      "titulo": "UpSuporte - Sistema de Suporte Técnico",
+      "tecnologias": "Python(Django), PostgreSQL, JavaScript",
+      "pontos": [
+        "Sistema web para registro e acompanhamento de chamados de suporte",
+        "CRUD de solicitações com autenticação e painel para organização de tickets",
+        "Persistência em PostgreSQL com campos estruturados para priorização"
+      ],
+      "links": [
+        {
+          "rotulo": "Projeto",
+          "url": "https://upsuporte.vercel.app/"
+        }
+      ]
+    }
+  ],
+  "experiencias": [],
+  "formacao": [
+    {
+      "titulo": "Ensino Médio Técnico em Informática",
+      "instituicao": "ETERJ - Escola Técnica do Rio de Janeiro",
+      "periodo": "2023.1 - 2025.2"
+    },
+    {
+      "titulo": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "UNISUAM",
+      "periodo": "2026.1 - 2028.1"
+    }
+  ],
+  "cursos": [
+    {
+      "titulo": "Lógica de Programação",
+      "instituicao": "JUVRIO",
+      "periodo": "2025"
+    },
+    {
+      "titulo": "Social Media",
+      "instituicao": "JUVRIO",
+      "periodo": "2025"
+    }
+  ],
+  "idiomas": [
+    {
+      "nome": "Inglês",
+      "nivel": "Básico",
+      "observacao": "leitura técnica inicial"
+    }
+  ],
+  "ferramentas": [
+    "Git e GitHub",
+    "Postman",
+    "Linux CLI",
+    "VS Code",
+    "AnyDesk/TeamViewer",
+    "pgAdmin(PostgreSQL)"
+  ]
+}

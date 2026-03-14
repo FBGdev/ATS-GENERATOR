@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{NOME}} - Currículo</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>{{NOME}}</h1>
+        <div class="subtitle">{{TITULO}}</div>
+
+        <div class="contact">
+          <a href="mailto:{{EMAIL}}">{{EMAIL}}</a> |
+          <a href="tel:{{TELEFONE_E164}}">{{TELEFONE_EXIBICAO}}</a> | {{LOCALIZACAO}}
+          <br />
+          {{LINKS_CONTATO_HTML}}
+        </div>
+      </header>
+
+      <section class="section">
+        <h2 class="section-title">Resumo Profissional</h2>
+        <p class="summary">{{RESUMO}}</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Competências</h2>
+        {{COMPETENCIAS_HTML}}
+      </section>
+
+      {{SECAO_FERRAMENTAS_HTML}}
+
+      <section class="section">
+        <h2 class="section-title">Projetos</h2>
+        {{PROJETOS_HTML}}
+      </section>
+
+      {{SECAO_EXPERIENCIAS_HTML}}
+
+      <section class="section">
+        <h2 class="section-title">Formação</h2>
+        {{FORMACAO_HTML}}
+      </section>
+
+      {{SECAO_CURSOS_HTML}}
+
+      <section class="section">
+        <h2 class="section-title">Idiomas</h2>
+        {{IDIOMAS_HTML}}
+      </section>
+
+      
+    </div>
+  </body>
+</html>
