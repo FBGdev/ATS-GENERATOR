@@ -3,7 +3,7 @@ Currículo ATS em HTML
 
 Gerador simples de currículo em HTML e PDF, totalmente em português e pensado para compatibilidade com sistemas de rastreamento de vagas (ATS). Agora apenas em Python.
 
-![Exemplo de currículo](exemplo.jpg)
+![Exemplo de currículo](https://raw.githubusercontent.com/FBGdev/ATS-GENERATOR/refs/heads/main/data/exemplo.jpg)
 
 Principais pontos
 -----------------
