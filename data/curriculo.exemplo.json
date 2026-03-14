@@ -8,52 +8,24 @@
   "linkedin_url": "https://www.linkedin.com/in/marina-costa-alves",
   "github_url": "https://github.com/marina-alves",
   "site_url": "https://marina-alves.dev",
-  "resumo": "Dev full stack júnior com foco em APIs Python/Flask e front-end React. Experiência acadêmica e de estágios em integrações REST, autenticação JWT, testes automatizados e implantação em Docker. Busca vaga para evoluir em arquitetura de serviços, observabilidade e boas práticas de código limpo.",
+  "resumo": "Dev full stack júnior. Atua com APIs Python/FastAPI e front-end React, testes com pytest/RTL e deploy simples em Docker. Busca vaga para seguir aprendendo arquitetura limpa e observabilidade.",
   "competencias_tecnicas": [
-    {
-      "grupo": "Programação e Desenvolvimento",
-      "itens": ["Python", "Flask", "FastAPI", "JavaScript/TypeScript", "React", "HTML/CSS", "Git/GitHub", "pytest"]
-    },
-    {
-      "grupo": "Banco de Dados",
-      "itens": ["PostgreSQL", "SQLite", "Modelagem relacional", "ORM (SQLAlchemy)"]
-    },
-    {
-      "grupo": "Infra e DevOps",
-      "itens": ["Docker", "Docker Compose", "CI/CD (GitHub Actions)", "NGINX (básico)"]
-    },
-    {
-      "grupo": "Sistemas Operacionais",
-      "itens": ["Linux (Ubuntu/Debian)", "Windows 10/11"]
-    }
+    { "grupo": "Programação e Desenvolvimento", "itens": ["Python", "Flask", "FastAPI", "JavaScript/TypeScript", "React", "HTML/CSS", "Git/GitHub", "pytest"] },
+    { "grupo": "Banco de Dados", "itens": ["PostgreSQL", "SQLite", "Modelagem relacional", "ORM (SQLAlchemy)"] },
+    { "grupo": "Sistemas Operacionais", "itens": ["Linux (Ubuntu/Debian)", "Windows 10/11"] }
   ],
-  "competencias_comportamentais": ["Comunicação clara", "Curiosidade técnica", "Organização", "Colaboração em squad"]
-  ,
-  "diferenciais": ["Projetos pessoais publicados", "Documentação em inglês", "Habituada a code review"],
+  "competencias_comportamentais": ["Comunicação clara", "Curiosidade técnica", "Organização", "Colaboração em squad"],
+  "diferenciais": ["Projetos pessoais publicados", "Documentação em inglês"],
   "projetos": [
     {
       "titulo": "AnalisaFrota API",
       "tecnologias": "Python, FastAPI, PostgreSQL, Docker",
       "pontos": [
-        "API para monitoramento de veículos com ingestão de telemetria e alertas por e-mail",
-        "Autenticação JWT, testes com pytest e pipeline CI/CD no GitHub Actions",
-        "Containerização com Docker Compose e documentação OpenAPI"
+        "API FastAPI para telemetria com alertas por e-mail",
+        "JWT + testes pytest e pipeline CI/CD",
+        "Containerização simples com Docker Compose"
       ],
-      "links": [
-        { "rotulo": "Repositório", "url": "https://github.com/marina-alves/analisa-frota" }
-      ]
-    },
-    {
-      "titulo": "AgendaSaude Web",
-      "tecnologias": "React, TypeScript, Tailwind",
-      "pontos": [
-        "SPA para agendamento de consultas com formulário validado e estado global com Zustand",
-        "Integração com API REST fictícia e testes de componentes com React Testing Library",
-        "Deploy estático em Vercel com otimização de bundle"
-      ],
-      "links": [
-        { "rotulo": "Deploy", "url": "https://agendasaude-web.vercel.app" }
-      ]
+      "links": [{ "rotulo": "Repositório", "url": "https://github.com/marina-alves/analisa-frota" }]
     }
   ],
   "experiencias": [
@@ -62,49 +34,22 @@
       "empresa": "Nuvem Verde Tech",
       "periodo": "2025.1 - 2025.2",
       "pontos": [
-        "Implementação de endpoints Flask com SQLAlchemy e migrações Alembic",
-        "Criação de testes de integração e monitoramento básico com Prometheus/Grafana",
-        "Apoio na containerização de serviços para ambiente de staging"
-      ]
-    },
-    {
-      "cargo": "Bolsista de Iniciação Tecnológica",
-      "empresa": "Laboratório de Sistemas Distribuídos - UNICAMP",
-      "periodo": "2024.2 - 2025.1",
-      "pontos": [
-        "Prototipagem de microserviços em FastAPI para coleta de dados IoT",
-        "Avaliação de filas com Redis e modelagem de dados para time series",
-        "Documentação de arquitetura e handoff para novas turmas"
+        "Endpoints Flask com SQLAlchemy e migrações Alembic",
+        "Testes de integração e monitoramento básico",
+        "Containerização de serviços para ambiente de staging"
       ]
     }
   ],
   "formacao": [
-    {
-      "titulo": "Bacharelado em Engenharia da Computação",
-      "instituicao": "Universidade Estadual de Campinas (UNICAMP)",
-      "periodo": "2023.1 - 2027.1"
-    },
-    {
-      "titulo": "Técnico em Eletrônica",
-      "instituicao": "SENAI-SP",
-      "periodo": "2019 - 2021"
-    }
+    { "titulo": "Bacharelado em Engenharia da Computação", "instituicao": "Universidade Estadual de Campinas (UNICAMP)", "periodo": "2023.1 - 2027.1" },
+    { "titulo": "Técnico em Eletrônica", "instituicao": "SENAI-SP", "periodo": "2019 - 2021" }
   ],
   "cursos": [
-    { "titulo": "Formação Data Science", "instituicao": "Alura", "periodo": "2025" },
     { "titulo": "Clean Code e TDD", "instituicao": "Udemy", "periodo": "2024" }
   ],
   "idiomas": [
     { "nome": "Português", "nivel": "Nativo", "observacao": "" },
-    { "nome": "Inglês", "nivel": "Avançado", "observacao": "conversa, leitura e escrita técnica" },
-    { "nome": "Espanhol", "nivel": "Intermediário", "observacao": "leitura" }
+    { "nome": "Inglês", "nivel": "Avançado", "observacao": "conversa e leitura técnica" }
   ],
-  "ferramentas": [
-    "Git e GitHub",
-    "Postman / Insomnia",
-    "Linux CLI",
-    "VS Code",
-    "Figma",
-    "DBeaver"
-  ]
+  "ferramentas": ["Git e GitHub", "Postman / Insomnia", "Linux CLI", "VS Code"]
 }
