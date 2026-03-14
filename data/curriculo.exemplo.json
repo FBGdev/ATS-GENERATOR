@@ -1,111 +1,110 @@
 {
-  "nome": "Fabiano Gonçalves Neves Bonfado Pereira",
-  "titulo": "Estagiário de Desenvolvimento e Suporte de TI",
-  "email": "fabianodev@yahoo.com",
-  "telefone_e164": "+5521983304162",
-  "telefone_exibicao": "(21) 98330-4162",
-  "localizacao": "Rio de Janeiro, RJ, Brasil",
-  "linkedin_url": "",
-  "github_url": "https://github.com/FBGdev/",
-  "site_url": "https://portfolio-fabiano.vercel.app",
-  "resumo": "Estudante de ADS e técnico em Informática com ~1,5 ano de prática em desenvolvimento web com Python/Django, integração com APIs e manipulação de bancos de dados, além de suporte técnico e infraestrutura básica. Atuo do backend ao front simples, com rotinas de diagnóstico, configuração de sistemas e redes. Busco estágio para aplicar e evoluir em desenvolvimento (backend/frontend) ou suporte/sistemas, entregando código limpo, documentação e atendimento ágil.",
+  "nome": "Marina Costa Alves",
+  "titulo": "Desenvolvedora Full Stack Júnior",
+  "email": "marina.alves@example.com",
+  "telefone_e164": "+5511987654321",
+  "telefone_exibicao": "(11) 98765-4321",
+  "localizacao": "São Paulo, SP, Brasil",
+  "linkedin_url": "https://www.linkedin.com/in/marina-costa-alves",
+  "github_url": "https://github.com/marina-alves",
+  "site_url": "https://marina-alves.dev",
+  "resumo": "Dev full stack júnior com foco em APIs Python/Flask e front-end React. Experiência acadêmica e de estágios em integrações REST, autenticação JWT, testes automatizados e implantação em Docker. Busca vaga para evoluir em arquitetura de serviços, observabilidade e boas práticas de código limpo.",
   "competencias_tecnicas": [
     {
       "grupo": "Programação e Desenvolvimento",
-      "itens": ["Python", "Django", "Integração com APIs", "HTML/CSS/JavaScript", "Tailwind CSS", "Git/GitHub"]
+      "itens": ["Python", "Flask", "FastAPI", "JavaScript/TypeScript", "React", "HTML/CSS", "Git/GitHub", "pytest"]
     },
     {
       "grupo": "Banco de Dados",
-      "itens": ["PostgreSQL", "Modelagem básica", "Consultas SQL", "Supabase (Storage)"]
+      "itens": ["PostgreSQL", "SQLite", "Modelagem relacional", "ORM (SQLAlchemy)"]
+    },
+    {
+      "grupo": "Infra e DevOps",
+      "itens": ["Docker", "Docker Compose", "CI/CD (GitHub Actions)", "NGINX (básico)"]
     },
     {
       "grupo": "Sistemas Operacionais",
-      "itens": ["Linux (Ubuntu)", "Windows 10/11", "Windows Server (noções)"]
-    },
-    {
-      "grupo": "Suporte Técnico e Infraestrutura",
-      "itens": [
-        "Montagem e manutenção de PCs",
-        "Instalação e configuração de SO",
-        "Redes básicas (TCP/IP, Wi-Fi, IP)",
-        "Active Directory (noções)",
-        "Suporte remoto (AnyDesk/TeamViewer)",
-        "Automação básica (Bash/PowerShell)"
-      ]
+      "itens": ["Linux (Ubuntu/Debian)", "Windows 10/11"]
     }
   ],
-  "competencias_comportamentais": [],
-  "diferenciais": [],
+  "competencias_comportamentais": ["Comunicação clara", "Curiosidade técnica", "Organização", "Colaboração em squad"]
+  ,
+  "diferenciais": ["Projetos pessoais publicados", "Documentação em inglês", "Habituada a code review"],
   "projetos": [
     {
-      "titulo": "Currículo ATS em HTML (Python)",
-      "tecnologias": "Python, Playwright, HTML, CSS",
+      "titulo": "AnalisaFrota API",
+      "tecnologias": "Python, FastAPI, PostgreSQL, Docker",
       "pontos": [
-        "Gerador de currículo em HTML/PDF com dados em JSON, focado em compatibilidade ATS",
-        "Template responsivo com estilos personalizáveis e exportação automatizada via Playwright",
-        "Link único para contatos e portfólio, facilitando triagem"
+        "API para monitoramento de veículos com ingestão de telemetria e alertas por e-mail",
+        "Autenticação JWT, testes com pytest e pipeline CI/CD no GitHub Actions",
+        "Containerização com Docker Compose e documentação OpenAPI"
       ],
       "links": [
-        {
-          "rotulo": "Repositório",
-          "url": "https://github.com/FBGdev/ats-resume-generator-html"
-        }
+        { "rotulo": "Repositório", "url": "https://github.com/marina-alves/analisa-frota" }
       ]
     },
     {
-      "titulo": "UpSuporte - Sistema de Suporte Técnico",
-      "tecnologias": "Python(Django), PostgreSQL, JavaScript",
+      "titulo": "AgendaSaude Web",
+      "tecnologias": "React, TypeScript, Tailwind",
       "pontos": [
-        "Sistema web para registro e acompanhamento de chamados de suporte",
-        "CRUD de solicitações com autenticação e painel para organização de tickets",
-        "Persistência em PostgreSQL com campos estruturados para priorização"
+        "SPA para agendamento de consultas com formulário validado e estado global com Zustand",
+        "Integração com API REST fictícia e testes de componentes com React Testing Library",
+        "Deploy estático em Vercel com otimização de bundle"
       ],
       "links": [
-        {
-          "rotulo": "Projeto",
-          "url": "https://upsuporte.vercel.app/"
-        }
+        { "rotulo": "Deploy", "url": "https://agendasaude-web.vercel.app" }
       ]
     }
   ],
-  "experiencias": [],
-  "formacao": [
+  "experiencias": [
     {
-      "titulo": "Ensino Médio Técnico em Informática",
-      "instituicao": "ETERJ - Escola Técnica do Rio de Janeiro",
-      "periodo": "2023.1 - 2025.2"
+      "cargo": "Estágio em Desenvolvimento Backend",
+      "empresa": "Nuvem Verde Tech",
+      "periodo": "2025.1 - 2025.2",
+      "pontos": [
+        "Implementação de endpoints Flask com SQLAlchemy e migrações Alembic",
+        "Criação de testes de integração e monitoramento básico com Prometheus/Grafana",
+        "Apoio na containerização de serviços para ambiente de staging"
+      ]
     },
     {
-      "titulo": "Análise e Desenvolvimento de Sistemas",
-      "instituicao": "UNISUAM",
-      "periodo": "2026.1 - 2028.1"
+      "cargo": "Bolsista de Iniciação Tecnológica",
+      "empresa": "Laboratório de Sistemas Distribuídos - UNICAMP",
+      "periodo": "2024.2 - 2025.1",
+      "pontos": [
+        "Prototipagem de microserviços em FastAPI para coleta de dados IoT",
+        "Avaliação de filas com Redis e modelagem de dados para time series",
+        "Documentação de arquitetura e handoff para novas turmas"
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "titulo": "Bacharelado em Engenharia da Computação",
+      "instituicao": "Universidade Estadual de Campinas (UNICAMP)",
+      "periodo": "2023.1 - 2027.1"
+    },
+    {
+      "titulo": "Técnico em Eletrônica",
+      "instituicao": "SENAI-SP",
+      "periodo": "2019 - 2021"
     }
   ],
   "cursos": [
-    {
-      "titulo": "Lógica de Programação",
-      "instituicao": "JUVRIO",
-      "periodo": "2025"
-    },
-    {
-      "titulo": "Social Media",
-      "instituicao": "JUVRIO",
-      "periodo": "2025"
-    }
+    { "titulo": "Formação Data Science", "instituicao": "Alura", "periodo": "2025" },
+    { "titulo": "Clean Code e TDD", "instituicao": "Udemy", "periodo": "2024" }
   ],
   "idiomas": [
-    {
-      "nome": "Inglês",
-      "nivel": "Básico",
-      "observacao": "leitura técnica inicial"
-    }
+    { "nome": "Português", "nivel": "Nativo", "observacao": "" },
+    { "nome": "Inglês", "nivel": "Avançado", "observacao": "conversa, leitura e escrita técnica" },
+    { "nome": "Espanhol", "nivel": "Intermediário", "observacao": "leitura" }
   ],
   "ferramentas": [
     "Git e GitHub",
-    "Postman",
+    "Postman / Insomnia",
     "Linux CLI",
     "VS Code",
-    "AnyDesk/TeamViewer",
-    "pgAdmin(PostgreSQL)"
+    "Figma",
+    "DBeaver"
   ]
 }
